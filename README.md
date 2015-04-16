@@ -1,4 +1,4 @@
-This repository contains chromosome/contig name mappings between UCSC &lt;-> Ensembl &lt;-> Gencode for a variety of genome.
+This repository contains chromosome/contig name mappings between UCSC &lt;-> Ensembl &lt;-> Gencode for a variety of genomes.
 
 The files are named `AAA_BBB2CCC.txt`, where `AAA` is a genome and version (e.g., GRCh37) and BBB and CCC are sources (namely, ensembl, UCSC, or gencode). Each file contains two columns. The first is the chromosome name in `BBB` and the second that in `CCC`. For example, let's suppose we're interested in converting gencode to ensembl chromosome names for GRCh37. We would then look in the `GRCh37_gencode2ensembl.txt` file and would see lines such as:
 
