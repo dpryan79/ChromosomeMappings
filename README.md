@@ -12,4 +12,16 @@ The files are named `AAA_BBB2CCC.txt`, where `AAA` is a genome and version (e.g.
 
 In this case, `chrX` is the gencode name and `X` is the equivalent Ensembl name.
 
+Missing Chromosomes/Contigs
+---------------------------
+
+It's not always the case that a given chromosome/contig exists in all sources. An example of that is `GRCh38_gencode2ucsc.txt`. There, a number of entries exist in gencode that are absent in UCSC. In cases such as this, the second column in a txt file will simply be empty:
+
+    KI270937.1      chr3_KI270937v1_alt
+    KI270938.1      chr19_KI270938v1_alt
+    KN196472.1      
+    KN196473.1      
+
+There is always a second tab-separated field above, but `KN196472.1` and `KN196473.1` simply don't exist in UCSC. So a script using these files can simply look for columns with values "" to indicate "missing".
+
 Please submit a pull request or an issue if you find any errors!
