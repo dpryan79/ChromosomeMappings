@@ -1,0 +1,14 @@
+2L	chr2L
+2LHet	chr2LHet
+2R	chr2R
+2RHet	chr2RHet
+3L	chr3L
+3LHet	chr3LHet
+3R	chr3R
+3RHet	chr3RHet
+4	chr4
+U	chrU
+Uextra	chrUextra
+X	chrX
+XHet	chrXHet
+YHet	chrYHet
