@@ -24,4 +24,9 @@ It's not always the case that a given chromosome/contig exists in all sources. A
 
 There is always a second tab-separated field above, but `KN196472.1` and `KN196473.1` simply don't exist in UCSC. So a script using these files can simply look for columns with values "" to indicate "missing".
 
+Ambiguous/multi-way mappings
+----------------------------
+
+Occasionally, e.g., with mm9, UCSC will merge contigs together into an ordered `*_random` sequence. This means that an individual entry in UCSC can map to multiple entries in Ensembl and Gencode. Such case are treated the same as missing entries, described above. An alternative would be to provide a comma-separated list of mapping targets and their chromosome offsets and or ranges. As this situation tends to only occur in older UCSC reference genomes, which are decreasingly used, I would prefer to avoid this complication.
+
 Please submit a pull request or an issue if you find any errors!
