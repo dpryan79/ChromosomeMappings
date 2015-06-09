@@ -12,3 +12,4 @@ Uextra	chrUextra
 X	chrX
 XHet	chrXHet
 YHet	chrYHet
+dmel_mitochondrion_genome	chrM
