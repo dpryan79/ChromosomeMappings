@@ -1,0 +1,17 @@
+chrI	I
+chrII	II
+chrIII	III
+chrIV	IV
+chrIX	IX
+chrM	Mito
+chrV	V
+chrVI	VI
+chrVII	VII
+chrVIII	VIII
+chrX	X
+chrXI	XI
+chrXII	XII
+chrXIII	XIII
+chrXIV	XIV
+chrXV	XV
+chrXVI	XVI

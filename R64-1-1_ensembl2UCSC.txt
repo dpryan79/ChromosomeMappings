@@ -1,0 +1,17 @@
+I	chrI
+II	chrII
+III	chrIII
+IV	chrIV
+IX	chrIX
+Mito	chrM
+V	chrV
+VI	chrVI
+VII	chrVII
+VIII	chrVIII
+X	chrX
+XI	chrXI
+XII	chrXII
+XIII	chrXIII
+XIV	chrXIV
+XV	chrXV
+XVI	chrXVI
