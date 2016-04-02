@@ -29,6 +29,11 @@ Ambiguous/multi-way mappings
 
 Occasionally, e.g., with mm9, UCSC will merge contigs together into an ordered `*_random` sequence. This means that an individual entry in UCSC can map to multiple entries in Ensembl and Gencode. Such case are treated the same as missing entries, described above. An alternative would be to provide a comma-separated list of mapping targets and their chromosome offsets and or ranges. As this situation tends to only occur in older UCSC reference genomes, which are decreasingly used, I would prefer to avoid this complication.
 
+Patch versions
+--------------
+
+It's often the case that a patch will have an associated version, such as `.2` in `KB469738.2`. While the patch itself will exist across genome updates, the version number may change. Consequently, it may be required to strip off these version when performing name conversions, simply to support different versions/patches of the same genome.
+
 Note
 ----
 

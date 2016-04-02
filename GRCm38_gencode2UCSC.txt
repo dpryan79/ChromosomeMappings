@@ -1,25 +1,3 @@
-chr1	chr1
-chr10	chr10
-chr11	chr11
-chr12	chr12
-chr13	chr13
-chr14	chr14
-chr15	chr15
-chr16	chr16
-chr17	chr17
-chr18	chr18
-chr19	chr19
-chr2	chr2
-chr3	chr3
-chr4	chr4
-chr5	chr5
-chr6	chr6
-chr7	chr7
-chr8	chr8
-chr9	chr9
-chrM	chrM
-chrX	chrX
-chrY	chrY
 GL456210.1	chr1_GL456210_random
 GL456211.1	chr1_GL456211_random
 GL456212.1	chr1_GL456212_random
@@ -73,7 +51,7 @@ JH792831.1
 JH792832.1	
 JH792833.1	
 JH792834.1	
-KB469738.2	
+KB469738.3	
 KB469739.1	
 KB469740.1	
 KB469741.1	
@@ -81,3 +59,39 @@ KB469742.1
 KK082441.1	
 KK082442.1	
 KK082443.1	
+KQ030484.1	
+KQ030485.1	
+KQ030486.1	
+KQ030487.1	
+KQ030488.1	
+KQ030489.1	
+KQ030490.1	
+KQ030491.1	
+KQ030492.1	
+KQ030493.1	
+KQ030494.1	
+KQ030495.1	
+KQ030496.1	
+KQ030497.1	
+chr1	chr1
+chr10	chr10
+chr11	chr11
+chr12	chr12
+chr13	chr13
+chr14	chr14
+chr15	chr15
+chr16	chr16
+chr17	chr17
+chr18	chr18
+chr19	chr19
+chr2	chr2
+chr3	chr3
+chr4	chr4
+chr5	chr5
+chr6	chr6
+chr7	chr7
+chr8	chr8
+chr9	chr9
+chrM	chrM
+chrX	chrX
+chrY	chrY
