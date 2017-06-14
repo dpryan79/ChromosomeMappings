@@ -45,3 +45,8 @@ Note
 Note that some data sources are absent. For example, wormbase has not been included, since it's chromosome naming system is identical to that in Ensembl.
 
 Please submit a pull request or an issue if you find any errors!
+
+Galaxy tool
+-----------
+
+These mapping tables can be use with the [replace_chromosome_names](https://toolshed.g2.bx.psu.edu/view/earlhaminst/replace_chromosome_names/) Galaxy tool to replace chromosome names in a tabular dataset in [Galaxy](https://galaxyproject.org/).
