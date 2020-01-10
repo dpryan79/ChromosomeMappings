@@ -46,6 +46,26 @@ Note that some data sources are absent. For example, wormbase has not been inclu
 
 Please submit a pull request or an issue if you find any errors!
 
+Command Line Tool
+-----------------
+
+A command line tool that uses these mapping tables to update the chromosome names in delimited data is available from [`cvbio`](https://github.com/clintval/cvbio#cvbio) as [`UpdateContigNames`](https://github.com/clintval/cvbio#updatecontignames). The tool optionally accepts compressed inputs and outputs, can replace multiple column values at once, and has support for skipping comment lines. Install with:
+
+    ❯ conda install -c bioconda cvbio
+
+#### Example Usage
+
+Update the chromosome names in an Ensembl GTF file to their UCSC chromosome names:
+
+    ❯ wget ftp://ftp.ensembl.org/pub/release-96/gtf/homo_sapiens/Homo_sapiens.GRCh38.96.gtf.gz
+    ❯ cvbio UpdateContigNames \
+        -i Homo_sapiens.GRCh38.96.gtf.gz \
+        -o Homo_sapiens.GRCh38.96.ucsc-named.gtf.gz \
+        -m GRCh38_ensembl2UCSC.txt \
+        --comment-chars '#' \
+        --columns 0 \
+        --skip-missing false
+
 Galaxy tool
 -----------
 
