@@ -305,7 +305,7 @@ chr8_KI270818v1_alt
 chr8_KI270819v1_alt	
 chr8_KI270820v1_alt	
 chr8_KI270821v1_alt	
-chr8_KI270822v1_alt
+chr8_KI270822v1_alt	
 chr8_KI270900v1_alt	
 chr8_KI270901v1_alt	
 chr8_KI270926v1_alt	
